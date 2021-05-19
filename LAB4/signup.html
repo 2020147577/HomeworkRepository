@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Yonsei souvenir shop signup page</title>
+    <link rel= "stylesheet" type= "text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "NewTegomin head">Welcome to Yonsei souvenir shop!</div>
+    <h1>This page is for <span class = "strongred NewTegomin">signup</span></h1>
+    <p class = "aligncenter"><button id="locate" onClick="location.href='index.html'"> go to main page</button>
+    <button id="locate" onClick="location.href='login.html'"> go to login</button></p>
+
+    <hr size = "3" width = "600px" align = "center" color = "blue">
+    <h2 class = "aligncenter">Basic <span class = "strongorange">user info</span></h2>
+    <p class = "aligncenter"><label>Name: <input name = "name" type = "text" 
+    placeholder = "Terry Im" required autofocus/></label></p>
+    <p class = "aligncenter"><label>Brith date: <input name = "date" type = "date" 
+    placeholder = "yyyy-mm-dd" required/></label></p>
+    <p class = "aligncenter"><label>Tel: <input name = "number" type = "tel" placeholder = "010-1234-1234" 
+    pattern = "(010)-\d{4}-\d{4}"/></label></p>
+    <p class = "aligncenter"><label>E-mail: <input name = "email" type = "email" 
+    placeholder = "studentID@yonsei.ac.kr"/>(options)</label></p>
+
+    <h2 class = "aligncenter"><span class = "strongorange">User account </span>info</h2>
+    <p class = "aligncenter"><label>User ID: <input name = "ID" type = "text" required/>
+    (6~13 texts, alphabet or num)</label></p>
+    <p class = "aligncenter"><label>password: <input name = "pw" type = "password" required/>(least 8 texts)</label></p>
+    <p class = "aligncenter"><label>confirm password: <input name = "pw" type = "password" required/>
+    (input the same password)</label></p>
+
+    <p class = "aligncenter"><input type = "submit" class = "sign" value = "signup"/></p>
+    <hr size = "3" width = "600px" align = "center" color = "blue">
+
+</body>
+</html>

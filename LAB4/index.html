@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Yonsei souvenir shop main page</title>
+    <link rel= "stylesheet" type= "text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="NewTegomin head">Welcome to Yonsei souvenir shop!</div>
+    <h1>This is <span class="strongred NewTegomin">main page</span></h1>
+    <p class="aligncenter">
+        <button id="locate" onClick="location.href='signup.html'">go to signin</button>
+        <button id="locate" onClick="location.href='login.html'"> go to login</button>
+    </p>
+
+    <aside>
+        <form>
+            <div>
+                <label for="category">Choose a category:</label>
+                <select id="category">
+                    <option selected>All</option>
+                    <option>clothing</option>
+                    <option>staionary</option>
+                    <option>daily</option>
+                </select>
+            </div>
+            <div>
+                <label for="textSearch">Search in text:</label>
+                <input type="text" id="textSearch" placeholder="write here">
+            </div>
+            <div>
+                <button id="Search">Search</button>
+            </div>
+        </form>   
+    </aside>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        <h2 class="aligncenter">All about our Yonsei souvenirs...</h2>
+        <section class="explanation">
+            <p>
+                From this april 2021, we launch new Yonsei souvenir store. Our goal is to allow every student in our university
+                buy stationaries and school items in one site, Yonsei souvenir store.
+            </p>
+            <p>
+                We sell stuffs in most reasonable price, and in best qualities. Our final goal is to sell goods from
+                other universities, such as textbooks and digital devices.
+            </p>
+            <p>
+                For any inconveniences, please contact us by email yonseisouvenirshop@yonsei.ac.kr
+                or Tel 010-1234-1234.
+            </p>
+            <p>Thank you for visiting our site, and we appreciate your support!</p>
+        </section>
+    </footer>
+    <script src="display.js"></script>
+</body>
+
+</html>
