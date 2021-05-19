@@ -1,0 +1,62 @@
+[
+  {
+    "name": "연세 USB",
+    "price": 30000,
+    "image": "연세 USB.png",
+    "type": "stationery"
+  },
+  {
+    "name": "연세 공책",
+    "price": 3000,
+    "image": "연세 공책.png",
+    "type": "stationery"
+  },
+  {
+    "name": "연세 만년필",
+    "price": 63000,
+    "image": "연세 만년필.png",
+    "type": "stationery"
+  },
+  {
+    "name": "연세 야구점퍼",
+    "price": 50000,
+    "image": "연세 야구점퍼.png",
+    "type": "clothing"
+  },
+  {
+    "name": "연세 후드티",
+    "price": 35000,
+    "image": "연세 후드티.png",
+    "type": "clothing"
+  },
+  {
+    "name": "연세 롱패딩",
+    "price": 150000,
+    "image": "연세 롱패딩.png",
+    "type": "clothing"
+  },
+  {
+    "name": "연세 바스타올",
+    "price": 10000,
+    "image": "연세 바스타올.png",
+    "type": "daily"
+  },
+  {
+    "name": "연세 텀블러",
+    "price": 15000,
+    "image": "연세 텀블러.png",
+    "type": "daily"
+  },
+  {
+    "name": "연세 에코백",
+    "price": 8000,
+    "image": "연세 에코백.png",
+    "type": "daily"
+  },
+  {
+    "name": "연세 벽시계",
+    "price": 18000,
+    "image": "연세 벽시계.png",
+    "type": "daily"
+  }
+]
